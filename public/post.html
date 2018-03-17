@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
+      <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Company name</a>
+      <input class="form-control form-control-dark w-100" placeholder="Search" aria-label="Search" type="text">
+      <ul class="navbar-nav px-3">
+        <li class="nav-item text-nowrap">
+          <a class="nav-link" href="#">Sign out</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="container-fluid">
+    	<div class="row">
+    		<nav class="col-md-2 d-none d-md-block bg-light sidebar navbar-xjk">
+    			<div class="sidebar-sticky">
+    				<ul class="nav flex-column">
+    					<li class="nav-item">
+    						<a href="" class="nav-link active">
+    							<i class="fa fa-tachometer" aria-hidden="true"></i>
+                                Tổng quan
+    						</a>
+    					</li>
+                        
+                        <li class="nav-item">
+                           <a href="" class="nav-link">
+							<i class="fa fa-book" aria-hidden="true"></i>
+                                Bài viết
+                            </a>
+                        </li>
+    				</ul>		
+    			</div>
+    		</nav>
+    		<main class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4" role="main">
+    			<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
+    				<h1>Viết bài</h1>
+                    <a type="button" class="btn btn-primary white">
+                       <i class="fa fa-floppy-o" aria-hidden="true"></i>
+                       Lưu
+                    </a>    
+    			</div>
+                <div class="row">
+                    <div class="col-md-8">
+                        <label>Tên bài viết</label>
+                        <input type="text" class="form-control input-xjk" disabled>
+                        <label for="content">Nội dung bài viết</label>
+                        <textarea name="content" id="content"></textarea>
+                    </div>
+                    <div class="col-md-4">
+                        <div>
+                            Thông báo chỉnh sửa
+                        </div>      
+                    </div>
+                </div>
+    		</main>	
+    	</div>
+    </div>
+	
+	<script type="text/javascript" src="assets/js/jquery-3.2.1.slim.min.js"></script>
+	<script type="text/javascript" src="assets/js/popper.min.js"></script>
+	<script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/ckeditor/ckeditor.js"></script>
+    <script type="text/javascript">
+        CKEDITOR.replace('content');
+    </script>
+</body>
+</html>

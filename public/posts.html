@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
+      <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Company name</a>
+      <input class="form-control form-control-dark w-100" placeholder="Search" aria-label="Search" type="text">
+      <ul class="navbar-nav px-3">
+        <li class="nav-item text-nowrap">
+          <a class="nav-link" href="#">Sign out</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="container-fluid">
+    	<div class="row">
+    		<nav class="col-md-2 d-none d-md-block bg-light sidebar" >
+    			<div class="sidebar-sticky">
+    				<ul class="nav flex-column">
+    					<li class="nav-item">
+    						<a href="" class="nav-link active">
+    							<i class="fa fa-tachometer" aria-hidden="true"></i>
+                                Tổng quan
+    						</a>
+    					</li>
+                        <li class="nav-item">
+                           	<a href="" class="nav-link">
+                           		<i class="fa fa-tasks" aria-hidden="true"></i>
+                                Dự án
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">
+                            	<i class="fa fa-key" aria-hidden="true"></i>
+                                Từ khóa
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                           <a href="" class="nav-link">
+							<i class="fa fa-book" aria-hidden="true"></i>
+                                Bài viết
+                            </a>
+                        </li>
+    				</ul>	
+    			</div>
+    		</nav>
+    		<main class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4" role="main">
+    			<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
+    				<h1>Danh sách bài viết - Tên dự án</h1>
+              <a type="button" class="btn btn-primary white">
+                 <i class="fa fa-plus" aria-hidden="true"></i>
+                 Thêm bài viết
+              </a>	
+    			</div>
+                <!-- Table -->
+          <div class="col-md-12">
+              <table class="table">
+                  <thead class="thead-dark">
+                  <tr class="text-center">
+                    <th scope="col">#</th>
+                    <th scope="col">Tên bài viết</th>
+                    <th scope="col">Ngày giao</th>
+                    <th scope="col">Ngày hoàn thành</th>
+                    <th scope="col">Ngày đăng</th>
+                    <th scope="col">Trạng thái</th>
+                    <th scope="col">Người nhận</th>
+                    <th scope="col">Người giao</th>
+                    <th scope="col">Hành động	</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="text-center">
+                    <th scope="row">1</th>
+                    <td>Seo</td>
+                    <td>@mdo</td>
+                    <td>@mdo</td>
+                    <td>@mdo</td>
+                    <td>@mdo</td>
+                    <td>@mdo</td>
+                    <td>@mdo</td>
+                    <td class="text-center">
+                          <a type="button" class="btn btn-primary btn-sm white">
+                              <i class="fa fa-share" aria-hidden="true"></i>
+                          </a>
+                          <a type="button" class="btn btn-primary btn-sm white">
+                              <i class="fa fa-pencil" aria-hidden="true"></i>
+                          </a>
+                          <a type="button" class="btn btn-danger btn-sm white">
+                              <i class="fa fa-trash-o" aria-hidden="true"></i>
+                          </a>
+                    </td>
+                  </tr>
+
+                </tbody>
+              </table>
+    					<!-- Pagination -->
+    					<center>
+    						<ul class="pagination">
+    							<li class="page-item"><a class="page-link" href="#">Previous</a></li>
+    							<li class="page-item"><a class="page-link" href="#">1</a></li>
+    							<li class="page-item active"><a class="page-link" href="#">2</a></li>
+    							<li class="page-item"><a class="page-link" href="#">3</a></li>
+    							<li class="page-item"><a class="page-link" href="#">Next</a></li>
+    						</ul> 
+    					</center>
+    					<!-- /Pagination -->
+
+          </div>
+          <!-- /table -->
+    		</main>	
+    	</div>
+    </div>
+	
+	<script type="text/javascript" src="assets/js/jquery-3.2.1.slim.min.js"></script>
+	<script type="text/javascript" src="assets/js/popper.min.js"></script>
+	<script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
